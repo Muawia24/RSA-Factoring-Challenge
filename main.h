@@ -6,5 +6,6 @@
 #include <unistd.h>
 #define _GNU_SOURCE
 
-void is_prime(char *buf);
+int print_product(char *buf);
+
 #endif

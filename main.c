@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
 	while ((n_line = getline(&buf, &size, fd)) != -1)
 	{
-		is_prime(buf);
+		print_product(buf);
 
 	}
 
